@@ -408,23 +408,21 @@ ul {
   display: flex;
 }
 /* Footer */
-.footer {
+.footer{
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 40px 20px;
-  border: 1px solid red;
+  border: 2px solid blue;
   display: flex;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  max-width: 1158px;
-  margin: 0 auto;
   gap: 20px;
   margin-right: 120px;
-  gap: 20px;
-  
+  border: 2px solid red;
+  margin-left: 20px;
 }
 .logo-white {
   color: #f4f4fd;
@@ -443,7 +441,8 @@ ul {
 /* Sosyal Medya Başlığı */
 .footer-social {
   text-align: left;
-  border: 1px solid red;
+  border: 1px solid yellow;
+  margin-right: 120px;
 }
 
 .social-title {
@@ -505,7 +504,4 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-}
-.footer-subscribe-container{
-    border: 1px solid blue;
 }
