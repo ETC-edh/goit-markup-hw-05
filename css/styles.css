@@ -574,6 +574,8 @@ ul {
     font-size: 12px;
     color: #8e8f99;
     margin-bottom: 4px;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
 }
 
 .input-wrapper {
@@ -633,5 +635,5 @@ ul {
     text-align: center;
     color: #2E2F42;
     margin-bottom: 16px;
-    
+
 }
